@@ -1,18 +1,20 @@
 body {
     text-align: center;
+    margin: 0
   }
 
   nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 25px;
   }
 
   a {
     color: white;
-    margin: 40px;
+    margin: 25px;
   }
 
   h1 {
+    margin: 50px 0;
     color: steelblue;
   }
   img {
@@ -35,4 +37,9 @@ body {
 #active {
   background-color: white;
   color: steelblue;
+}
+
+footer {
+  background-color: steelblue;
+  color: white;
 }
