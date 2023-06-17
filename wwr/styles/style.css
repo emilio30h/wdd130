@@ -248,14 +248,16 @@ footer .social img {
   margin-bottom: 10px;
 }
 
-.faq ul {
-  list-style-type: disc;
-  margin-left: 20px;
+ul {
+  list-style-type: none; /* Remove the default bullet points */
+  padding: 0; /* Remove any default padding */
 }
 
-.faq li {
-  margin-bottom: 5px;
+li {
+  margin-left: 20px; /* Add left margin to create space for bullet points */
+  text-indent: -15px; /* Adjust the text indentation to align with bullet points */
 }
+
 
 ul {
   list-style-type: disc; /* Set the bullet style */
