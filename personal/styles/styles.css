@@ -31,14 +31,22 @@ header {
   height: auto;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 nav a {
-  margin-right: 10px;
-  color: #FFF;
+  margin-left: 10px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 nav a:hover {
   color: #E7C24F;
 }
+
 
 /* Main Section Styles */
 main {
