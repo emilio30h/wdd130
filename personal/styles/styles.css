@@ -42,11 +42,22 @@ nav a {
   margin-left: 10px;
   color: #ffffff;
   text-decoration: none;
+  flex: 0 0 auto;
+}
+
+nav a:first-child {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+nav a:last-child {
+  margin-left: 10px;
 }
 
 nav a:hover {
   color: #E7C24F;
 }
+
 
 
 
