@@ -1,1 +1,84 @@
+/* Reset default margin and padding */
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.rectangle {
+  display: flex;
+  align-items: center;
+}
+
+.rectangle img {
+  width: 150px;
+  height: auto;
+  margin-right: 10px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  padding: 10px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
