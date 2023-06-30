@@ -54,13 +54,9 @@ nav a {
   text-decoration: none;
 }
 
-nav a:first-child {
-  margin-left: 0;
+nav a:last-child {
+  margin-right: 0;
 }
-
-
-
-
 
 /* Main Section Styles */
 main {
