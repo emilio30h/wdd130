@@ -24,7 +24,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align:center;
 }
 
 .logo {
@@ -45,13 +44,17 @@ nav {
 }
 
 nav a {
-  margin-left: 10px;
+  margin: 0 5px; /* Adjust the spacing between links */
   color: #ffffff;
   text-decoration: none;
 }
 
+nav a:first-child {
+  margin-left: 0; /* Remove the left margin from the first link */
+}
+
 nav a:last-child {
-  margin-right: 0;
+  margin-right: 0; /* Remove the right margin from the last link */
 }
 
 /* Main Section Styles */
