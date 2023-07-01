@@ -61,15 +61,6 @@ nav a:hover {
   color: #000000;
   text-decoration: underline;
 }
-
-nav a:first-child {
-  margin-left: 0; /* Remove the left margin from the first link */
-}
-
-nav a:last-child {
-  margin-right: 0; /* Remove the right margin from the last link */
-}
-
 /* Main Section Styles */
 main {
   padding: 20px;
