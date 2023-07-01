@@ -20,39 +20,28 @@ a {
 /* Header Styles */
 header {
   background-color: rgba(20, 30, 13, 0.7);
-  display: grid;
-  grid-template-columns: 150px auto;
   padding: 10px;
+  display: flex;
   align-items: center;
 }
 
-.logo, .icon {
-  width: 80px;
-}
-
-.icon {
-  padding-top: 10px;
-}
-
-#logo_link {
-  padding-top: 5px;
-  justify-self: center;
-  align-self: center;
+.logo {
+  width: 100px;
+  height: auto;
 }
 
 nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   padding: 10px 0;
 }
 
 nav a {
-  margin: 0 5px;
-  color: #60DBF1;
+  margin: 0 10px;
+  color: #ffffff;
   text-decoration: none;
-  padding: 35px;
 }
 
 nav a:first-child {
@@ -63,11 +52,6 @@ nav a:last-child {
   margin-right: 0;
 }
 
-nav a:hover {
-  background-color: black;
-  color: #343331;
-  text-decoration: underline;
-}
 
 /* Main Section Styles */
 main {
