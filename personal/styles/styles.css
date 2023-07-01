@@ -95,12 +95,15 @@ div.rectangle p {
 }
 
 /* Footer Styles */
+/* Footer Styles */
 footer {
   background-color: #A43312;
   color: #FFF;
   padding: 20px;
   display: flex;
   align-items: center;
+  justify-content: center; /* Align text to the center */
+  flex-wrap: wrap; /* Wrap the content if it exceeds the width */
 }
 
 footer p {
@@ -117,3 +120,4 @@ footer a {
   height: 20px;
   margin-right: 5px;
 }
+
