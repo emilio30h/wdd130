@@ -19,9 +19,10 @@ a {
 
 /* Header Styles */
 header {
-  background-color: rgba(20, 30, 13, 0.7);
+  background-color: #396E94;
   padding: 10px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -33,25 +34,24 @@ header {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* Align links to the center */
   width: 100%;
   padding: 10px 0;
 }
 
 nav a {
-  margin: 0 10px;
+  margin: 0 5px; /* Adjust the spacing between links */
   color: #ffffff;
   text-decoration: none;
 }
 
 nav a:first-child {
-  margin-left: 0;
+  margin-left: 0; /* Remove the left margin from the first link */
 }
 
 nav a:last-child {
-  margin-right: 0;
+  margin-right: 0; /* Remove the right margin from the last link */
 }
-
 
 /* Main Section Styles */
 main {
@@ -64,7 +64,7 @@ section {
 
 section h1 {
   margin-bottom: 10px;
-  text-align: center;
+  text-align:center;
 }
 
 section img {
@@ -99,30 +99,26 @@ div.rectangle p {
 
 /* Footer Styles */
 footer {
-  background-color: #1a2f4b;
-  color: #ffffff;
-  padding: 25px 50px;
-  margin-top: 200px;
+  background-color: #A43312;
+  color: #FFF;
+  padding: 20px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  justify-content: center; /* Align text to the center */
+  flex-wrap: wrap; /* Wrap the content if it exceeds the width */
 }
 
 footer p {
-  font-size: 1.2em;
+  margin: 0;
 }
 
 footer a {
-  color: #ffffff;
-  text-decoration: none;
+  margin-right: 10px;
+  color: #FFF;
 }
 
-footer p a:hover, footer a:hover {
-  color: #D83336;
-  text-decoration: underline;
-}
-
-footer .social img {
-  padding-top: 15px;
+.social img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
