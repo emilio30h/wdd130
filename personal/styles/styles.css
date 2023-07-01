@@ -22,11 +22,11 @@ a {
 
 /* Header Styles */
 header {
-  background-color: #396E94;
-  padding: 10px;
+  background-color: rgba(20, 30, 13, 0.7);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 
 .logo,
@@ -51,71 +51,26 @@ nav {
 
 nav a {
   text-align: center;
-  color: #E7C24F;
+  color: #60DBF1;
   text-decoration: none;
   padding: 15px;
 }
 
 nav a:hover {
-  background-color: #A43312;
-  color: #000000;
+  background-color: black;
+  color: #343331;
   text-decoration: underline;
-}
-/* Main Section Styles */
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 20px;
-}
-
-section h1 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-section img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-section button {
-  background-color: #E7C24F;
-  color: #000;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto; /* Center the button horizontally */
-}
-
-div.rectangle {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-div.rectangle img {
-  width: 100%;
-  height: auto;
-}
-
-div.rectangle p {
-  margin-bottom: 10px;
 }
 
 /* Footer Styles */
 footer {
-  background-color: #A43312;
-  color: #FFF;
-  padding: 25px;
+  background-color: #1a2f4b;
+  color: #ffffff;
+  padding: 25px 50px;
+  margin-top: 200px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 footer p {
@@ -123,13 +78,13 @@ footer p {
 }
 
 footer a {
-  color: #FFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
 footer p a:hover,
 footer a:hover {
-  color: #E7C24F;
+  color: #D83336;
   text-decoration: underline;
 }
 
