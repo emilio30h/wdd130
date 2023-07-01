@@ -1,20 +1,27 @@
 /* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: #000;
-  line-height: 1.5;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 22px;
   margin: 0;
   padding: 0;
+  background-color: #fcfbfb;
 }
 
-h1, h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #000;
+h2 {
+  margin: 0;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
+.home-title {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+}
+
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
 }
 
 /* Header Styles */
@@ -24,6 +31,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 
 .logo {
@@ -31,30 +39,11 @@ header {
   height: auto;
 }
 
-#logo_link {
-  margin-right: auto;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Align links to the center */
-  width: 100%;
-  padding: 10px 0;
-}
-
 nav a {
-  margin: 0 5px; /* Adjust the spacing between links */
-  color: #ffffff;
   text-decoration: none;
-}
-
-nav a:first-child {
-  margin-left: 0; /* Remove the left margin from the first link */
-}
-
-nav a:last-child {
-  margin-right: 0; /* Remove the right margin from the last link */
+  color: #fcfbfb;
+  text-align: center;
+  padding: 35px;
 }
 
 /* Main Section Styles */
@@ -68,7 +57,6 @@ section {
 
 section h1 {
   margin-bottom: 10px;
-  text-align:center;
 }
 
 section img {
@@ -102,15 +90,13 @@ div.rectangle p {
 }
 
 /* Footer Styles */
-/* Footer Styles */
 footer {
   background-color: #A43312;
-  color: #FFF;
-  padding: 20px;
+  color: #fcfbfb;
+  padding: 25px 50px;
   display: flex;
   align-items: center;
-  justify-content: center; /* Align text to the center */
-  flex-wrap: wrap; /* Wrap the content if it exceeds the width */
+  justify-content: space-between;
 }
 
 footer p {
@@ -119,7 +105,7 @@ footer p {
 
 footer a {
   margin-right: 10px;
-  color: #FFF;
+  color: #fcfbfb;
 }
 
 .social img {
@@ -128,3 +114,73 @@ footer a {
   margin-right: 5px;
 }
 
+/* Padding */
+#logo_link {
+  padding-top: 5px;
+}
+
+nav a {
+  padding: 35px;
+}
+
+.book,
+.join {
+  padding: 15px 30px;
+}
+
+.icon {
+  padding-top: 10px;
+}
+
+.msg {
+  padding: 35px;
+}
+
+.msg p {
+  padding-bottom: 15px;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+/* Margins */
+.home-title {
+  margin-top: 10px;
+}
+
+.book,
+.join {
+  margin-top: 50px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+
+footer {
+  margin-top: 200px;
+}
+
+/* Borders and Border Radius */
+.book,
+.join {
+  background-color: #d9c2a3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+
+/* Box-sizing */
+main section img {
+  box-sizing: border-box;
+}
