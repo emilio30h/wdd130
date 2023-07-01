@@ -70,13 +70,14 @@ section {
 
 section h1 {
   margin-bottom: 10px;
-  text-align:center;
+  text-align: center;
 }
 
 section img {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
+  max-width: 300px; /* Limit the maximum width of images */
 }
 
 section button {
@@ -86,6 +87,8 @@ section button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  display: block; /* Make the button a block element */
+  margin: 0 auto; /* Center the button horizontally */
 }
 
 div.rectangle {
@@ -97,6 +100,7 @@ div.rectangle {
 div.rectangle img {
   width: 100%;
   height: auto;
+  max-width: 200px; /* Limit the maximum width of images */
 }
 
 div.rectangle p {
