@@ -128,3 +128,29 @@ footer a {
   height: 20px;
   margin-right: 5px;
 }
+
+/* Palette Colors */
+:root {
+  --color-primary: #396E94;
+  --color-secondary: #E7C24F;
+  --color-accent: #A43312;
+}
+
+/* Apply Colors */
+header {
+  background-color: var(--color-primary);
+}
+
+nav a {
+  color: #FFF;
+}
+
+section button {
+  background-color: var(--color-secondary);
+  color: #000;
+}
+
+footer {
+  background-color: var(--color-accent);
+  color: #FFF;
+}
