@@ -166,3 +166,24 @@ footer {
   margin-top: 20px; /* Add desired space above the image */
   margin-bottom: 20px; /* Add desired space below the image */
 }
+
+/* Styles for arranging images and paragraphs side by side */
+div.rectangle {
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Position children with equal space between them */
+}
+
+div.rectangle > div {
+  flex: 1; /* Expand child divs to occupy equal space */
+  text-align: center; /* Center the contents within each child div */
+}
+
+div.rectangle img {
+  width: 100%; /* Make the images fill the available width */
+  height: auto; /* Maintain the aspect ratio of the images */
+}
+
+div.rectangle p {
+  margin-top: 10px; /* Add margin at the top of each paragraph */
+  text-align: center; /* Center the paragraphs horizontally */
+}
