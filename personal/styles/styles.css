@@ -163,4 +163,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-top: 20px; /* Add desired space above the image */
+  margin-bottom: 20px; /* Add desired space below the image */
 }
