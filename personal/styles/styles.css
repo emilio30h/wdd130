@@ -28,6 +28,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  display: grid;
+  grid-template-columns: 150px auto;
 }
 
 .logo {
