@@ -21,7 +21,7 @@ a {
 
 /* Header Styles */
 header {
-  background-color: #396E94;
+  background-color: #28965A;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -109,7 +109,7 @@ div.rectangle p {
 
 /* Footer Styles */
 footer {
-  background-color: #A43312;
+  background-color: #2A6041;
   color: #FFF;
   padding: 20px;
   display: flex;
@@ -135,9 +135,9 @@ footer a {
 
 /* Palette Colors */
 :root {
-  --color-primary: #396E94;
-  --color-secondary: #E7C24F;
-  --color-accent: #A43312;
+  --color-primary: #2A6041;
+  --color-secondary: #28965A;
+  --color-accent: #2CEAA3;
 }
 
 /* Apply Colors */
