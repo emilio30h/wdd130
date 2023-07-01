@@ -157,3 +157,8 @@ footer {
   background-color: var(--color-accent);
   color: #FFF;
 }
+
+.first-image {
+  margin-left: auto;
+  margin-right: auto;
+}
