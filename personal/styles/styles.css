@@ -1,40 +1,16 @@
-/* Global Styles */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #000;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #000;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-/* Header Styles */
 header {
-  background-color: #396E94;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: rgba(20, 30, 13, 0.7);
   display: grid;
   grid-template-columns: 150px auto;
 }
 
-.logo {
-  width: 100px;
-  height: auto;
+.logo,
+.icon {
+  width: 80px;
+}
+
+.icon {
+  padding-top: 10px;
 }
 
 #logo_link {
@@ -45,104 +21,18 @@ header {
 
 nav {
   display: flex;
-  align-items: center;
-  justify-content: space-around; /* Align links to the center */
-  width: 100%;
-  padding: 10px 0;
+  justify-content: space-around;
 }
 
 nav a {
-  margin: 0 5px; /* Adjust the spacing between links */
-  color: #ffffff;
-  text-decoration: none;
-}
-
-nav a:first-child {
-  margin-left: 0; /* Remove the left margin from the first link */
-}
-
-nav a:last-child {
-  margin-right: 0; /* Remove the right margin from the last link */
-}
-
-/* Main Section Styles */
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 20px;
-}
-
-section h1 {
-  margin-bottom: 10px;
   text-align: center;
-  font-size: 2em; /* Increase the font size for the section heading */
+  color: #60DBF1;
+  text-decoration: none;
+  padding: 35px;
 }
 
-section img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-section button {
-  background-color: #E7C24F;
-  color: #000;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-div.rectangle {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-div.rectangle img {
-  width: 100%;
-  height: auto;
-}
-
-div.rectangle p {
-  margin-bottom: 10px;
-}
-
-/* Footer Styles */
-footer {
-  background-color: #A43312;
-  color: #FFF;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Align text to the center */
-  flex-wrap: wrap; /* Wrap the content if it exceeds the width */
-}
-
-footer p {
-  margin: 0;
-}
-
-footer a {
-  margin-right: 10px;
-  color: #FFF;
-}
-
-.social img {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
-}
-
-section button {
-  background-color: #E7C24F;
-  color: #000;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto; /* Center the button horizontally */
+nav a:hover {
+  background-color: black;
+  color: #343331;
+  text-decoration: underline;
 }
