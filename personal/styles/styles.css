@@ -38,7 +38,9 @@ header {
 }
 
 #logo_link {
-  margin-right: auto;
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
 }
 
 nav {
