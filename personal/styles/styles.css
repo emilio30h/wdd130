@@ -10,7 +10,6 @@ body {
 h1, h2 {
   font-family: 'Montserrat', sans-serif;
   color: #000;
-  text-align: center;
 }
 
 a {
@@ -62,6 +61,7 @@ section {
 
 section h1 {
   margin-bottom: 10px;
+  text-align:center;
 }
 
 section img {
