@@ -82,7 +82,7 @@ section h1 {
 }
 
 section h2 {
-  margin-top: 30px;
+  margin-top: 150px;
   margin-bottom: 30px;
   }
 
@@ -125,6 +125,23 @@ div.rectangle img {
 div.rectangle p {
   margin-bottom: 10px;
 }
+
+div.rectangle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+div.rectangle img {
+  width: 100%;
+  height: auto;
+}
+
+div.rectangle p {
+  margin-bottom: 10px;
+}
+
 
 /* Footer Styles */
 footer {
