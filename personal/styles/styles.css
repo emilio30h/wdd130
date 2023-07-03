@@ -21,12 +21,13 @@ a {
 
 /* Header Styles */
 header {
-  background-color: #28965A;
+  background-color: #396E94;
   padding: 10px;
-  display: flex;
-  justify-content: space-between;
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: auto 1fr; /* Two columns, first column is the width of its content, second column takes up the remaining space */
   align-items: center;
 }
+
 
 .logo {
   width: 100px;
