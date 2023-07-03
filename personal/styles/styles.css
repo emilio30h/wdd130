@@ -50,7 +50,7 @@ nav a {
   margin: 0 5px; /* Adjust the spacing between links */
   color: #ffffff;
   text-decoration: none;
-  padding: 8px;
+  padding: 100px;
 }
 
 nav a:first-child {
