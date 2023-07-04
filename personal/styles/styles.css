@@ -208,3 +208,13 @@ footer {
 .image-description {
   margin-right: 0px
 }
+
+.section-with-background {
+  background-color: rgba(0, 0, 0, 0.01); /* Set a very low alpha value for the background */
+  padding: 20px;
+}
+
+.rectangle {
+  background-color: rgba(0, 0, 0, 0.03); /* Set a very low alpha value for the background */
+  padding: 20px;
+}
