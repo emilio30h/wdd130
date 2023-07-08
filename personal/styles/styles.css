@@ -241,3 +241,33 @@ footer {
   border-radius: 50%;
 }
 
+/* Apply styles to the elements within the About Us page */
+body.about-us {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+main.about-us {
+  padding: 20px;
+}
+
+section.about-us h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-primary);
+}
+
+section.about-us img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+section.about-us p {
+  text-align: center;
+  margin: 20px 0; /* Remove the right margin */
+}
+
