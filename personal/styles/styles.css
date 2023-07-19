@@ -149,11 +149,12 @@ footer {
 footer p {
   margin: 0;
   margin-left: 20px;
+  color: black;
 }
 
 footer a {
   margin-right: 10px;
-  color: #FFF;
+  color: black;
 }
 
 footer a:hover{
